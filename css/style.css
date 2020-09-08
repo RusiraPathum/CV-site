@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 168, 255, 0.3), rgb(0, 168, 255, 0.3)), url(../img/headerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.nav-item a {
+    color: #fff!important;
+    font-weight: bold;
+}
+
+.header-section {
+    position: relative;
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons a {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-buttons a:hover {
+    color: #50d1c0;
+    background: #fff;
+    box-shadow: 0 0 20px 0rgba(0, 0, 0, 0, 0.3);
+}
+
+.center-div p {
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px 0 20px 0;
+}
