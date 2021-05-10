@@ -59,7 +59,7 @@ p {
 }
 
 .nav-item a {
-    color: #fff!important;
+    color: #fff !important;
     font-weight: bold;
 }
 
@@ -106,3 +106,154 @@ p {
     color: white;
     padding: 10px 0 20px 0;
 }
+
+
+/*About Section*/
+
+.about-sec {
+    width: 100%;
+    margin: 100px 0;
+    height: auto;
+    text-align: center;
+}
+
+.about-sec h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.about-sec hr {
+    background: #50d1c0;
+}
+
+.extra-div {
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div h2 {
+    font-size: 1.8rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.extra-div p {
+    font-size: 1.4rem;
+}
+
+.about-sec img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.about-sec .about-sec-button a {
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.about-sec .about-sec-button a:hover {
+    color: #f8f8f8;
+    background: #50d1c0;
+    box-shadow: 0 0 20px 0rgba(0, 0, 0, 0, 0.3);
+}
+
+
+/*Start Education Section*/
+
+.education-Sec h1 {
+    text-align: center;
+}
+
+.education-Sec .headings h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.education-Sec h1 {
+    text-align: left;
+}
+
+.education-Sec .div-2 h1 {
+    font-size: 2rem;
+}
+
+.education-Sec .div-2 p {
+    font-size: 1.7rem;
+    color: #fff!important;
+}
+
+.education-Sec .div-2 hr {
+    background: #ffffff;
+}
+
+.education-Sec hr {
+    background: #50d1c0;
+}
+
+.education {
+    background-image: url(../img/aaron-burden-6jYoil2GhVk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+}
+
+.progress {
+    font-size: 1rem;
+    height: 1.5rem;
+}
+
+
+/*Back to up button*/
+
+.scrollUp {
+    display: -webkit-flex;
+    display: moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+    background: crimson;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.scrollUp.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+    transform: translateY(-55px);
+}
+
+
+/*Start Project Css*/
